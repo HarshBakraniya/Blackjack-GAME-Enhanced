@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blackjack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startGame()" id="startGameBtn">START GAME</button><br>
+    <button onclick="newCard()" id="newCardBtn">NEW CARD</button>
+    <p id="player-el"></p>
+    
+
+    <div id="overlay"></div>
+    <div id="rules-box">
+        <h2>🃏 Blackjack Rules</h2>
+
+        <ul>
+            <li>Try to get as close to 21 as possible.</li>
+            <li>Number cards are worth their face value.</li>
+            <li>J, Q and K are worth 10.</li>
+            <li>Ace is worth 11.</li>
+            <li>Click NEW CARD to draw another card.</li>
+            <li>If your total exceeds 21, you lose.</li>
+            <li>Exactly 21 is Blackjack!</li>
+        </ul>
+
+        <button onclick="hideRules()">OK, GOT IT</button>
+    </div>
+
+    <div id="bet-container">
+
+    <button onclick="placeBet(10)">BET $10</button>
+    <button onclick="placeBet(20)">BET $20</button>
+    <button onclick="placeBet(30)">BET $30</button>
+    <button onclick="placeBet(50)">BET $50</button>
+    </div>
+    <p id="bet-info"></p>
+
+    <script src="index.js"></script>
+</body>
+</html>

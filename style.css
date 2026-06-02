@@ -1,0 +1,130 @@
+h1 {
+    color: goldenrod;
+}
+
+body{  
+    min-height: 100vh;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(image.jpg);
+    background-size: cover ;
+    background-position: center;  
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 38px;
+    color: rgb(231, 228, 15);
+}
+
+#player-el {
+    position: fixed;
+    top: 20px;
+    right: 23px;
+    padding: 5px 18px;
+    margin: 0;
+    border-radius: 16px;
+    color:rgb(30, 125, 233);
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    color : #016f32;
+    width: 350px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+#overlay {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    z-index: 999;
+}
+
+#rules-box {
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+    max-width: 600px;
+    max-height: 75vh;
+
+    overflow-y: auto;
+
+    background: #1b1b1b;
+    color: white;
+
+    border: 3px solid goldenrod;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    z-index: 1000;
+
+    text-align: left;
+
+    font-size: 18px;
+
+    box-sizing: border-box;
+}
+
+#rules-box h2 {
+    color: goldenrod;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+#rules-box p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#rules-box button {
+    display: block;
+    margin: 20px auto 0;
+
+    width: 200px;
+
+    font-size: 20px;
+    color: #016f32;
+    background-color: goldenrod;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 10px;
+}
+
+#bet-container {
+    display: none;
+}
+
+#bet-container button {
+    width: 140px;
+    font-size: 26px;
+    border-radius: 8px;
+}
