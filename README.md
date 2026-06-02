@@ -1,7 +1,5 @@
 # Blackjack-GAME - Enhanced
 
-# Blackjack Casino Edition
-
 A browser-based Blackjack game built with HTML, CSS, and JavaScript.
 
 ## Live Demo
